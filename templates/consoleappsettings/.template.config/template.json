@@ -6,5 +6,9 @@
   "name": "Console Application with App Settings",
   "shortName": "consoleappsettings",
   "sourceName": "consoleappsettings",      // Will replace the string 'Sayedha.StarterWeb' with the value provided via -n.
-  "preferNameDirectory" : "true"
+  "preferNameDirectory" : "true",
+  "tags": {
+     "language": "C#",
+    "type": "project"
+  }
 }
