@@ -4,5 +4,7 @@
   "classifications": [ "Common", "Console" ],
   "identity": "Glav.ConsoleAppSettingsTemplate.CSharp",
   "name": "Console Application with App Settings",
-  "shortName": "consoleappsettings"
+  "shortName": "consoleappsettings",
+  "sourceName": "consoleappsettings",      // Will replace the string 'Sayedha.StarterWeb' with the value provided via -n.
+  "preferNameDirectory" : "true"
 }
