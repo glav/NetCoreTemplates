@@ -5,10 +5,20 @@
   "identity": "Glav.ConsoleAppSettingsTemplate.CSharp",
   "name": "Console Application with App Settings",
   "shortName": "consoleappsettings",
-  "sourceName": "consoleappsettings",      // Will replace the string 'Sayedha.StarterWeb' with the value provided via -n.
-  "preferNameDirectory" : "true",
+  "sourceName": "consoleappsettings", // Will replace the string 'Sayedha.StarterWeb' with the value provided via -n.
+  "preferNameDirectory": "true",
   "tags": {
-     "language": "C#",
+    "language": "C#",
     "type": "project"
+  },
+  "symbols": {
+    "id01": {
+      "type": "generated",
+      "generator": "guid",
+      "replaces": "UserSecretsGuid",
+      "parameters": {
+        "format": "N"
+      }
+    }
   }
 }
