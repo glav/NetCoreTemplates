@@ -14,6 +14,7 @@ public class GenericHost : BackgroundService
     protected override Task ExecuteAsync(CancellationToken stoppingToken)
     {
         _logger.InfoMessage("I am a Generic background Host.");
+        _logger.InfoMessage("I am using the LoggerMessage pattern from here: https://docs.microsoft.com/en-us/dotnet/core/extensions/high-performance-logging");
 
         return Task.CompletedTask;
     }
