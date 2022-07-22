@@ -8,7 +8,7 @@
     <Authors>Paul Glavich</Authors>
     <Description>Custom Templates for convenience.</Description>
     <PackageTags>dotnet-new;templates;glav</PackageTags>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp6</TargetFramework>
 
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>

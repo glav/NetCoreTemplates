@@ -19,16 +19,6 @@ public class Startup
         IHost host;
         if (USE_APPSETTINGS_CONFIG)
         {
-            var appInsightsConnectionString = appConfig["configValue"];
-            if (string.IsNullOrWhiteSpace(appInsightsConnectionString))
-            {
-                Console.WriteLine("No AppInsights connection string present. No AppInsights logging will be performed.");
-            }
-            else
-            {
-                Console.WriteLine("AppInsights connection string present. Logging to AppInsights enabled.");
-            }
-
             host = CreateHostViaAppsettings();
         }
         else
