@@ -3,9 +3,9 @@
   "author": "Paul Glavich",
   "classifications": [ "Common", "Console" ],
   "identity": "Glav.ConsoleLoggingTemplate.CSharp",
-  "name": "Console Application with Logging and DI",
-  "shortName": "consolelogging",
-  "sourceName": "consolelogging", 
+  "name": "Console Application with Logging and App Settings",
+  "shortName": "consoleloggingappsettings",
+  "sourceName": "consoleloggingappsettings", 
   "preferNameDirectory": "true",
   "tags": {
     "language": "C#",
