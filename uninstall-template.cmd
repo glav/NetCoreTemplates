@@ -1,1 +1,1 @@
-dotnet new --uninstall Glav.Utility.Templates
+dotnet new uninstall Glav.Utility.Templates
