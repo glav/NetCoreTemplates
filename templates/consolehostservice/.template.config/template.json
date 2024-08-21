@@ -6,7 +6,7 @@
   "name": "Console Application with Background Service Host",
   "shortName": "consolehostservice",
   "sourceName": "consolehostservice",
-  "preferNameDirectory": "true",
+  "preferNameDirectory": true,
   "tags": {
     "language": "C#",
     "type": "project"
